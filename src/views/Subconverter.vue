@@ -332,7 +332,7 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
-          "v.iori":"https://v.iori3.pp.ua",
+          "v.iori":"https://v.iori3.pp.ua/short",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
@@ -790,7 +790,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://jy02739244-subconverter.hf.space" : this.getUrlParam(),
-        shortType: "https://v.iori3.pp.ua",
+        shortType: "https://v.iori3.pp.ua/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -1313,6 +1313,7 @@ export default {
   }
 };
 </script>
+
 
 
 
