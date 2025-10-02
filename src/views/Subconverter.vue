@@ -332,12 +332,14 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
+          "v.iori":"https://v.iori3.pp.ua/",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
+          "自建转换": "https://jy02739244-subconverter.hf.space",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -347,6 +349,7 @@ export default {
           "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
+          { value: "https://jy02739244-subconverter.hf.space" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -1310,3 +1313,4 @@ export default {
   }
 };
 </script>
+
