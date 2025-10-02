@@ -332,7 +332,7 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
-          "v.iori":"https://v.iori3.pp.ua/",
+          "v.iori":"https://v.iori3.pp.ua",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
@@ -1313,5 +1313,6 @@ export default {
   }
 };
 </script>
+
 
 
