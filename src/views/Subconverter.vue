@@ -789,8 +789,8 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
-        shortType: "https://v1.mk/short",
+        customBackend: this.getUrlParam() == "" ? "https://jy02739244-subconverter.hf.space" : this.getUrlParam(),
+        shortType: "https://v.iori3.pp.ua",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -1313,4 +1313,5 @@ export default {
   }
 };
 </script>
+
 
